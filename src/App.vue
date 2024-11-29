@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
-
 <template>
   <div>
     <a href="https://www.electronjs.org/" target="_blank" class="flex-center">
@@ -11,19 +7,27 @@ import HelloWorld from "./components/HelloWorld.vue";
         alt="Electron logo"
       />
     </a>
+
     <a href="https://vitejs.dev/" target="_blank" class="flex-center">
       <img src="./assets/vite.svg" class="logo" alt="Vite logo" />
     </a>
+
     <a href="https://vuejs.org/" target="_blank" class="flex-center">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+
   <HelloWorld msg="Electron + Vite + Vue + TailwindCSS" />
+
   <div class="flex-center">
     Place static files into the <code>/public</code> folder
     <img style="width: 2.4em; margin-left: 0.4em" src="/logo.svg" alt="Logo" />
   </div>
 </template>
+
+<script setup lang="ts">
+import HelloWorld from "./components/HelloWorld.vue";
+</script>
 
 <style>
 .flex-center {
