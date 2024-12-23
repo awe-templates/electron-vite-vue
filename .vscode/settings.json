@@ -11,4 +11,7 @@
     }
   ],
   "scss.validate": false,
+  "css.customData": [
+    ".vscode/tailwind.json"
+  ],
 }
